@@ -27,7 +27,7 @@ APS provides several outstanding resources for staying informed about advances i
 
 - **[Physics Today](https://pubs.aip.org/physicstoday)** — General-interest magazine covering news and features across all fields of physics.  
 - **[Physical Review Letters (PRL)](https://journals.aps.org/prl/)** — One of the most prestigious journals in physics.  
-- **[Physics Magazine](https://physics.aps.org/)** — APS’s online magazine featuring research highlights and accessible summaries of recent publications.  
+- **[Physics Magazine](https://physics.aps.org/)** — APS's online magazine featuring research highlights and accessible summaries of recent publications.  
 
 ## Travel Grants & Student Fellowships
 
@@ -48,5 +48,6 @@ You can explore available opportunities at the [APS Funding & Recognition page](
 | [APS Student Ambassadors](https://www.aps.org/membership/student-ambassadors) | Learn about the ambassador program and connect with student leaders worldwide. |
 | [APS Career Center](https://www.apsphysicsjobs.com/) | Explore job listings, internships, and professional development resources. |
 | [APS Global Physics Summit](https://summit.aps.org/) | One of the largest annual gatherings of physicists — showcasing research across all areas of physics. |
+| [Natural Mentoring Community (NMC)](https://www.aps.org/initiatives/physics-education/national-mentoring-community) | An excellent opportunity to benefit from guidance from a more experienced person, whether in academia or industry |
 
 Stay engaged with the APS community and make the most of the opportunities available to you as a student or researcher.
