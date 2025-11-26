@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-dbcf26d2a861c9abc1d6164bc722532d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -131,7 +160,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#travel-grants" id="toc-travel-grants" class="nav-link active" data-scroll-target="#travel-grants">Travel Grants</a>
+  <li><a href="#cuastip-2026" id="toc-cuastip-2026" class="nav-link active" data-scroll-target="#cuastip-2026">CU<span class="math inline">\(\ast\)</span>iP 2026</a></li>
+  <li><a href="#giving-tuesday" id="toc-giving-tuesday" class="nav-link" data-scroll-target="#giving-tuesday">Giving Tuesday</a></li>
+  <li><a href="#travel-grants" id="toc-travel-grants" class="nav-link" data-scroll-target="#travel-grants">Travel Grants</a>
   <ul class="collapse">
   <li><a href="#dcp-new-investigator-travel-awards" id="toc-dcp-new-investigator-travel-awards" class="nav-link" data-scroll-target="#dcp-new-investigator-travel-awards">DCP New Investigator Travel Awards</a></li>
   <li><a href="#dap-student-travel-grants" id="toc-dap-student-travel-grants" class="nav-link" data-scroll-target="#dap-student-travel-grants">DAP Student Travel Grants</a></li>
@@ -182,6 +213,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Discover the latest updates from the APS community — including announcements, opportunities, and upcoming events. These announcements are time-sensitive and may vary by year.</p>
+<section id="cuastip-2026" class="level2">
+<h2 class="anchored" data-anchor-id="cuastip-2026">CU<span class="math inline">\(\ast\)</span>iP 2026</h2>
+<p>Applications for the APS Conference for Undergraduate Women and Gender Minorities in Physics (CU<span class="math inline">\(\ast\)</span>iP) 2026 are now open. CU<span class="math inline">\(\ast\)</span>iP is a longstanding APS program that provides undergraduate students with research talks, professional development sessions, and opportunities to build community in physics. It will be held as one centralized conference in Denver, Colorado, on March 14–15, 2026, instead of multiple regional sites.</p>
+<ul>
+<li><a href="https://my.aps.org/cuwipapply">Application link</a></li>
+<li>Deadline: Dec.&nbsp;4, 2025, at 11:59 p.m. ET.</li>
+</ul>
+</section>
+<section id="giving-tuesday" class="level2">
+<h2 class="anchored" data-anchor-id="giving-tuesday">Giving Tuesday</h2>
+<p>APS is participating in Giving Tuesday to support physics students facing uncertainties in funding, program stability, and institutional challenges. The donations raised directly support crucial initiatives — including career development, education, diversity, and scientific funding advocacy. You can find more information here: <a href="https://www.aps.org/about/support/stand-up-science-giving-tuesday">Invest in physics students for Giving Tuesday</a>.</p>
+</section>
 <section id="travel-grants" class="level2">
 <h2 class="anchored" data-anchor-id="travel-grants">Travel Grants</h2>
 <section id="dcp-new-investigator-travel-awards" class="level3">
@@ -374,7 +417,7 @@ DCMP will award up to twenty graduate student members awards of $800.00 to suppo
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/roimex\.github\.io\/APS-Paris\/");
+        var filterRegex = new RegExp("https:\/\/yiyi-wan\.github\.io\/APS-Paris\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
