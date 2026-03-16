@@ -1,1 +1,1 @@
-Sitemap: https://yiyi-wan.github.io/APS-Paris/sitemap.xml
+Sitemap: https://aps-paris.org/sitemap.xml
