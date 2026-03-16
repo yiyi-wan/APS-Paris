@@ -27,7 +27,7 @@ website:
 #    background: cyan
 #    foreground: white
     left: |
-      <div style="margin-left: 16em;">© 2025 APS@Paris</div>
+      <div style="margin-left: 16em;">© 2026 APS@Paris</div>
     right: |
       <div style="margin-right: 2em; text-align: right; white-space: nowrap;">
         <a href="https://x.com/APSphysics" target="_blank" rel="noopener" style="text-decoration: none; border: none;">
